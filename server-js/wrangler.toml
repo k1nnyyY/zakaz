@@ -1,0 +1,14 @@
+name = "your-project-name"
+main = "dist/server.js"
+account_id = "29a2b881ca8bb5a6a276dbcb30018dc7"
+workers_dev = true
+compatibility_date = "2024-07-25"
+node_compat = true
+
+[build]
+command = "npm run build"
+
+[env.production]
+compatibility_flags = [
+  "nodejs_compat"
+]
